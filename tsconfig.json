@@ -22,6 +22,7 @@
 
     /* Other Files */
     "allowJs": true,
+    "checkJs": true,
 
     "baseUrl": ".",
     "paths": {

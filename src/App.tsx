@@ -5,7 +5,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-    children: [{index: true, element: <Home />}],
+    children: [
+      {index: true, element: <Home />},
+      {path: "play", lazy: () => import("./routes/play")},
+    ],
   },
   {
     path: "*",

@@ -8,6 +8,7 @@ const router = createBrowserRouter([
     children: [
       {index: true, element: <Home />},
       {path: "play", lazy: () => import("./routes/play")},
+      {path: "traffic-light", lazy: () => import("./routes/traffic-light")},
     ],
   },
   {

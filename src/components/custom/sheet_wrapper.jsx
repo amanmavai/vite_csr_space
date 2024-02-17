@@ -17,6 +17,7 @@ import {cn} from "@/lib/utils";
 const navItems = [
   {name: "Home", to: "/"},
   {name: "Play", to: "/play"},
+  {name: "Traffic Light", to: "/traffic-light"},
 ];
 
 /**

@@ -1,10 +1,11 @@
+import {SheetWrapper} from "@/components/custom/sheet_wrapper";
 import {Outlet} from "react-router-dom";
 
 export default function Root() {
   return (
     <div className="grid min-h-full grid-rows-[4rem_1fr_4rem] border-b border-b-gray-200">
-      <header id="top-bar" className="border-b border-b-gray-200 px-4">
-        {/* Top Bar */}
+      <header id="top-bar" className="flex items-center border-b border-b-gray-200 px-4">
+        <SheetWrapper />
       </header>
 
       <main id="main-dashboard" className="flex p-5">

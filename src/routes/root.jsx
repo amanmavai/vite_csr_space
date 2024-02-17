@@ -3,7 +3,7 @@ import {Outlet} from "react-router-dom";
 export default function Root() {
   return (
     <div className="grid min-h-full grid-rows-[4rem_1fr_4rem] border-b border-b-gray-200">
-      <header id="top-bar" className="border-b- border-b px-4">
+      <header id="top-bar" className="border-b border-b-gray-200 px-4">
         {/* Top Bar */}
       </header>
 

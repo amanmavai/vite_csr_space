@@ -16,4 +16,11 @@ npx tailwindcss init -p
 # react-router-dom
 npm install react-router-dom
 
+# shadcn
+npm i -D @types/node
+npx shadcn-ui@latest init
+
+# individual components
+npx shadcn-ui@latest add button
+
 ```

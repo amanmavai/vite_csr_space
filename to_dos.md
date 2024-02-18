@@ -1,4 +1,4 @@
-- [ ] add shadcn library
+- [x] add shadcn library
 - [ ] create wrapper components for commonly used components
   - [ ] Modal
   - [ ] Switch

@@ -26,7 +26,7 @@ export function Component() {
   let lightClass = "h-32 w-32 rounded-full";
 
   return (
-    <div className="flex flex-1 flex-col items-center justify-center gap-4">
+    <div className="flex h-full flex-col items-center justify-center gap-4">
       <div className={cn(lightClass, light === "red" ? "bg-red-400" : "bg-gray-200")} />
       <div className={cn(lightClass, light === "green" ? "bg-green-400" : "bg-gray-200")} />
       <div className={cn(lightClass, light === "yellow" ? "bg-yellow-400" : "bg-gray-200")} />

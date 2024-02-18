@@ -1,4 +1,5 @@
 import {ComboboxWrapper} from "./components/custom/combobox_wrapper";
+import {PresetSave} from "./components/custom/preset_save";
 import {SelectWrapper} from "./components/custom/select_wrapper";
 import {SwitchWrapper} from "./components/custom/switch_wrapper";
 import {Button} from "./components/ui/button";
@@ -58,6 +59,9 @@ function Home() {
         <Button size="lg" className="text-lg">
           Express
         </Button>
+      </div>
+      <div className="w-96 border border-gray-200 p-4 text-justify">
+        <PresetSave />
       </div>
     </div>
   );

@@ -28,5 +28,6 @@ npm install @radix-ui/react-icons
 npx shadcn-ui@latest add select
 npx shadcn-ui@latest add switch
 npx shadcn-ui@latest add label
+npx shadcn-ui@latest add input
 
 ```

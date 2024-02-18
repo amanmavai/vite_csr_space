@@ -1,7 +1,7 @@
 - [x] add shadcn library
-- [ ] create wrapper components for commonly used components
-  - [ ] Modal
-  - [ ] Switch
-  - [ ] Combobox
-  - [ ] Select
-  - [ ] Sheet
+- [x] create wrapper components for commonly used components
+  - [x] Modal
+  - [x] Switch
+  - [x] Combobox
+  - [x] Select
+  - [x] Sheet

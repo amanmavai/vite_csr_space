@@ -1,5 +1,6 @@
 import {ComboboxWrapper} from "./components/custom/combobox_wrapper";
 import {SelectWrapper} from "./components/custom/select_wrapper";
+import {SwitchWrapper} from "./components/custom/switch_wrapper";
 import Root from "./routes/root";
 import {RouterProvider, createBrowserRouter, Link} from "react-router-dom";
 
@@ -49,7 +50,9 @@ function Home() {
       <div className="w-96 border border-gray-200 p-4 text-justify">
         <SelectWrapper />
       </div>
-      <div className="w-96 border border-gray-200 p-4 text-justify"></div>
+      <div className="w-96 border border-gray-200 p-4 text-justify">
+        <SwitchWrapper />
+      </div>
     </div>
   );
 }

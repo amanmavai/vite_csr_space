@@ -14,6 +14,7 @@ const router = createBrowserRouter([
       {index: true, element: <Home />},
       {path: "play", lazy: () => import("./routes/play")},
       {path: "traffic-light", lazy: () => import("./routes/traffic-light")},
+      {path: "layouts", lazy: () => import("./routes/layouts")},
     ],
   },
   {

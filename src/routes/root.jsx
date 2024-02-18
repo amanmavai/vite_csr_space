@@ -6,6 +6,7 @@ export default function Root() {
     <div className="grid min-h-full grid-rows-[4rem_1fr_4rem] border-b border-b-gray-200">
       <header id="top-bar" className="flex items-center border-b border-b-gray-200 px-4">
         <SheetWrapper />
+        <div className="flex flex-1 items-center justify-end text-lg text-primary">CSR: Vite + React Router</div>
       </header>
 
       <main id="main-dashboard" className="p-5">

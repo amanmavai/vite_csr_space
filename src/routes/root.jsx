@@ -8,7 +8,7 @@ export default function Root() {
         <SheetWrapper />
       </header>
 
-      <main id="main-dashboard" className="flex p-5">
+      <main id="main-dashboard" className="p-5">
         <Outlet />
       </main>
 

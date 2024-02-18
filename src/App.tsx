@@ -1,4 +1,5 @@
 import {ComboboxWrapper} from "./components/custom/combobox_wrapper";
+import {SelectWrapper} from "./components/custom/select_wrapper";
 import Root from "./routes/root";
 import {RouterProvider, createBrowserRouter, Link} from "react-router-dom";
 
@@ -40,12 +41,14 @@ function NoMatch() {
 function Home() {
   return (
     <div className="mt-8 flex flex-col items-center gap-4 ">
-      <h2 className="text-3xl text-green-500">Home</h2>
+      <h2 className="text-3xl text-cyan-500">Demo Components</h2>
       {/* Placeholders for components */}
       <div className="w-96 border border-gray-200 p-4 text-justify">
         <ComboboxWrapper />
       </div>
-      <div className="w-96 border border-gray-200 p-4 text-justify"></div>
+      <div className="w-96 border border-gray-200 p-4 text-justify">
+        <SelectWrapper />
+      </div>
       <div className="w-96 border border-gray-200 p-4 text-justify"></div>
     </div>
   );

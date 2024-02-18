@@ -25,4 +25,6 @@ npx shadcn-ui@latest add button
 npx shadcn-ui@latest add popover
 npx shadcn-ui@latest add command
 npm install @radix-ui/react-icons
+npx shadcn-ui@latest add select
+
 ```

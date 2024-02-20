@@ -10,6 +10,9 @@
   - [ ] Table
 
 - [ ] Common Custom Components
+
   - [x] InfiniteScroll
   - [ ] Todos App
   - [ ] Form Component
+
+- [ ] Figure out best way to integrate images in this project both svg and others

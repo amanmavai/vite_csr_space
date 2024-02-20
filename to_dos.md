@@ -10,6 +10,6 @@
   - [ ] Table
 
 - [ ] Common Custom Components
-  - [ ] InfiniteScroll
+  - [x] InfiniteScroll
   - [ ] Todos App
   - [ ] Form Component

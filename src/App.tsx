@@ -16,6 +16,7 @@ const router = createBrowserRouter([
       {path: "play", lazy: () => import("./routes/play")},
       {path: "traffic-light", lazy: () => import("./routes/traffic-light")},
       {path: "layouts", lazy: () => import("./routes/layouts")},
+      {path: "infinite-scroll", lazy: () => import("./routes/infinite-scroll")},
     ],
   },
   {

@@ -19,6 +19,7 @@ const navItems = [
   {name: "Play", to: "/play"},
   {name: "Layouts", to: "/layouts"},
   {name: "Traffic Light", to: "/traffic-light"},
+  {name: "Infinite Scroll", to: "/infinite-scroll"},
 ];
 
 /**

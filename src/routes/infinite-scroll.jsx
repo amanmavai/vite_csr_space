@@ -80,7 +80,7 @@ export function Component() {
     <div className="flex justify-center text-3xl text-primary">
       <ul
         ref={scrollableRef}
-        className="flex h-96 w-96 flex-col gap-2 overflow-auto border border-primary text-base text-primary "
+        className="flex h-96 w-96 flex-col gap-2 overflow-auto border border-primary p-2 text-base text-primary"
       >
         {items.map((item) => {
           return (

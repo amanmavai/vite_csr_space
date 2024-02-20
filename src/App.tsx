@@ -1,3 +1,4 @@
+import {Debug, HelloAtom} from "mnlib_components";
 import {ComboboxWrapper} from "./components/custom/combobox_wrapper";
 import {PresetSave} from "./components/custom/preset_save";
 import {SelectWrapper} from "./components/custom/select_wrapper";
@@ -43,6 +44,18 @@ function NoMatch() {
 }
 
 function Home() {
+  // create an obj constant to pass to Debug component
+  const o = {
+    name: "John Doe",
+    age: 30,
+    address: {
+      street: "123 Main St",
+      city: "Anytown",
+      state: "NY",
+      zip: "12345",
+    },
+  };
+
   return (
     <div className="mt-8 flex flex-col items-center gap-4 ">
       <h2 className="text-3xl text-primary">Demo Components</h2>
@@ -63,6 +76,12 @@ function Home() {
       </div>
       <div className="w-96 border border-gray-200 p-4 text-justify">
         <PresetSave />
+      </div>
+      <div className="w-96 border border-gray-200 p-4 text-justify">
+        <Debug o={o} />
+      </div>
+      <div className="w-96 border border-gray-200 p-4 text-justify">
+        <HelloAtom spin={9} size="9" name="one" />
       </div>
     </div>
   );

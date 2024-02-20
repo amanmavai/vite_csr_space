@@ -14,6 +14,8 @@
 @import "tailwindcss/components";
 /* END__COMPONENTS */
 
+@import "mnlib_components/styles.css";
+
 /* CUSTOM_COMPONENTS */
 @import "./custom.css";
 /* END_CUSTOM_COMPONENTS */

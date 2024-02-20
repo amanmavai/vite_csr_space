@@ -53,13 +53,13 @@ export function Component() {
     if (loading) return; // Prevent multiple fetches when already loading
     try {
       setLoading(true);
-      // const response = await fetch(`https://api.github.com/users?since=${lastUserId}&per_page=15`); use this for unauthenticated requests
-      const accessToken = import.meta.env.VITE_GITHUB_TOKEN; // Access the token
-      const response = await fetch(`https://api.github.com/users?since=${lastUserId}&per_page=15`, {
-        headers: {
-          Authorization: `Bearer ${accessToken}`,
-        },
-      });
+      const response = await fetch(`https://api.github.com/users?since=${lastUserId}&per_page=15`); // use this for unauthenticated requests
+      // const accessToken = import.meta.env.VITE_GITHUB_TOKEN;
+      // const response = await fetch(`https://api.github.com/users?since=${lastUserId}&per_page=15`, {
+      //   headers: {
+      //     Authorization: `Bearer ${accessToken}`,
+      //   },
+      // });
       if (!response.ok) throw new Error("Network response was not ok");
       const data = await response.json();
 

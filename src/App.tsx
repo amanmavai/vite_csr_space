@@ -7,23 +7,26 @@ import {Button} from "./components/ui/button";
 import Root from "./routes/root";
 import {RouterProvider, createBrowserRouter, Link} from "react-router-dom";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Root />,
-    children: [
-      {index: true, element: <Home />},
-      {path: "play", lazy: () => import("./routes/play")},
-      {path: "traffic-light", lazy: () => import("./routes/traffic-light")},
-      {path: "layouts", lazy: () => import("./routes/layouts")},
-      {path: "infinite-scroll", lazy: () => import("./routes/infinite-scroll")},
-    ],
-  },
-  {
-    path: "*",
-    element: <NoMatch />,
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Root />,
+      children: [
+        {index: true, element: <Home />},
+        {path: "play", lazy: () => import("./routes/play")},
+        {path: "traffic-light", lazy: () => import("./routes/traffic-light")},
+        {path: "layouts", lazy: () => import("./routes/layouts")},
+        {path: "infinite-scroll", lazy: () => import("./routes/infinite-scroll")},
+      ],
+    },
+    {
+      path: "*",
+      element: <NoMatch />,
+    },
+  ],
+  {basename: import.meta.env.BASE_URL},
+);
 
 function App() {
   return <RouterProvider router={router} fallbackElement={<p>Loading...</p>} />;

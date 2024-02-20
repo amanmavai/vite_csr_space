@@ -28,4 +28,7 @@ Go to your repository on GitHub, navigate to Settings > Pages, and select the gh
 # 8. Access Your Deployed Site
 After GitHub Pages is configured, your site should be live at https://amanmavai.github.io/vite_csr_space/.
 
+# 9. Update Your react router setup to have base path
+ const router = createBrowserRouter(routes, { basename: import.meta.env.BASE_URL });
+
 ```
